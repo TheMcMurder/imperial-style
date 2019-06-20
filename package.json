@@ -1,6 +1,6 @@
 {
   "name": "imperial-style",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Welcome to the Imperial Style Guide. This resource was created to facilitate consistency in our communications throughout all sectors, with an emphasis on clear and direct conveyance of our mission to uphold order in the galaxy through constant exploration of new technologies and an ideology that fear of force is as, if not more, effective as force itself.",
   "main": "imperial.js",
   "scripts": {
