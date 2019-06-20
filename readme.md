@@ -20,6 +20,15 @@ or from unpkg.com
 <link rel='stylesheet' href='https://unpkg.com/imperial-style/imperial.css'>
 ```
 
+## Images
+```html
+<img src="/node_modules/imperial-style/img/imperial-logo.svg" >
+```
+
+or from unpkg.com
+
+<img src="https://unpkg.com/imperial-style/img/imperial-logo.svg" >
+
 ## Optional API
 
 ```js
