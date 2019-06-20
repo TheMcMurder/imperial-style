@@ -14,6 +14,12 @@ Add a `Link` tag to your app:
 <link rel='stylesheet' href='/node_modules/imperial-style/imperial.css'>
 ```
 
+or from unpkg.com
+
+```html
+<link rel='stylesheet' href='https://unpkg.com/imperial-style/imperial.css'>
+```
+
 ## Optional API
 
 ```js
