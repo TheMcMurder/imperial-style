@@ -1,0 +1,28 @@
+{
+  "name": "imperial-style",
+  "version": "0.0.1",
+  "description": "Welcome to the Imperial Style Guide. This resource was created to facilitate consistency in our communications throughout all sectors, with an emphasis on clear and direct conveyance of our mission to uphold order in the galaxy through constant exploration of new technologies and an ideology that fear of force is as, if not more, effective as force itself.",
+  "main": "imperial.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheMcMurder/imperial-style.git"
+  },
+  "keywords": [
+    "css",
+    "styleguide",
+    "imperial",
+    "star",
+    "wars",
+    "the",
+    "force"
+  ],
+  "author": "Russell Heimlich, Bret Little, Justin McMurdie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheMcMurder/imperial-style/issues"
+  },
+  "homepage": "https://github.com/TheMcMurder/imperial-style#readme"
+}
