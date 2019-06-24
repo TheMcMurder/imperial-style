@@ -29,6 +29,10 @@ export function imperialBackground(options = {}) {
 		samples = []
 		for(var i = 0; i < SAMPLE_COUNT; i++)
 			samples.push(generateRandomSample(context, canvas.width, canvas.height));
+
+    if (!animate) {
+      window.requestAnimationFrame(render);
+    }
 	};
 
 	function interpolate(x, x0, y0, x1, y1) {
