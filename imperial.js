@@ -1,6 +1,7 @@
 // Canvas TV scroll effect
 // See https://codepen.io/alenaksu/pen/dGjeMZ
-export function imperialBackground() {
+export function imperialBackground(options = {}) {
+  const { animate = true } = options
   var canvasWrapper = document.createElement('div');
   canvasWrapper.className = 'tv';
 
@@ -88,7 +89,9 @@ export function imperialBackground() {
 		scanOffsetY += (canvas.height / scanSpeed);
 		if(scanOffsetY > canvas.height) scanOffsetY = -(scanSize / 2);
 
-		window.requestAnimationFrame(render);
+    if (animate) {
+      window.requestAnimationFrame(render);
+    }
 	}
 	window.onresize();
 	window.requestAnimationFrame(render);
