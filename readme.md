@@ -38,3 +38,6 @@ import jQuery from 'jquery';
 imperialBackground();   // Render a background canvas old "tv" effect
 characterMorph(jQuery); // Render a character animation from Aurebesh to English
 ```
+
+### Support
+The Empire doesn't support old browsers. We embrace the most powerful and require all others to do the same.

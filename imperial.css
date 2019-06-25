@@ -1,3 +1,12 @@
+:root {
+  --green: #556567;
+  --red: #BC1E22;
+  --blue: #394A59;
+  --black: #000000;
+  --white: #FFFFFF;
+  --grey: #64696C;
+}
+
 @font-face {
   font-family: "auretech";
   src: url("./fonts/auretech.woff2") format("woff2"),
@@ -118,8 +127,8 @@ html {
 }
 body {
   line-height: 1;
-  color: #000;
-  background-color: #fff;
+  color: var(--black);
+  background-color: var(--white);
 }
 ol,
 ul {
@@ -169,8 +178,8 @@ html {
 }
 body {
   font-family: "Saira", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #fff;
-  background-color: #000;
+  color: var(--white);
+  background-color: var(--black);
   height: 100%;
 }
 .tv {
@@ -208,18 +217,18 @@ h1 {
   font-size: 1.5rem;
   margin-bottom: 8vh;
   font-weight: 400;
-  color: #fff;
+  color: var(--white);
   text-transform: uppercase;
-  text-shadow: 0 0 0.625em #fff, 0 0 1.5625em #fff,
+  text-shadow: 0 0 0.625em var(--white), 0 0 1.5625em var(--white),
     -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
 }
 hr.border {
-  border-top: 0.25rem solid #fff;
+  border-top: 0.25rem solid var(--white);
   display: block;
   max-width: 64rem;
-  -webkit-box-shadow: 0 0 0.625em #fff, 0 0 1.5625em #fff,
+  -webkit-box-shadow: 0 0 0.625em var(--white), 0 0 1.5625em var(--white),
     -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 0.625em #fff, 0 0 1.5625em #fff,
+  box-shadow: 0 0 0.625em var(--white), 0 0 1.5625em var(--white),
     -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
 }
 @media (max-width: 64em) {
@@ -253,10 +262,10 @@ svg {
   text-transform: uppercase;
 }
 .nav a {
-  text-shadow: 0 0 0.625em #bc1e22, 0 0 1.5625em #bc1e22,
+  text-shadow: 0 0 0.625em var(--red), 0 0 1.5625em var(--red),
     -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
   position: absolute;
-  color: #fff;
+  color: var(--white);
   top: 50%;
   left: 50%;
   text-align: center;
@@ -303,7 +312,7 @@ svg {
   font-size: 17.5rem;
   display: block;
   margin: 10vh auto;
-  color: #fff;
+  color: var(--white);
   -webkit-filter: drop-shadow(0 0 0.1875rem rgba(255, 255, 255, 0.7))
     drop-shadow(0 0 0.1875rem rgba(255, 255, 255, 0.7))
     drop-shadow(0 0 0.1875rem rgba(255, 255, 255, 0.7));
@@ -365,9 +374,9 @@ svg {
   padding: 0.5rem;
 }
 .section .section-title {
-  text-shadow: 0 0 0.625em #bc1e22, 0 0 1.5625em #bc1e22,
+  text-shadow: 0 0 0.625em var(--red), 0 0 1.5625em var(--red),
     -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
-  color: #fff;
+  color: var(--white);
   text-transform: uppercase;
   font-size: 1.4rem;
   font-family: "Source Code Pro", monospace;
@@ -383,8 +392,8 @@ svg {
   font-size: 1.4rem;
   line-height: 1.9;
   margin-bottom: 0.875rem;
-  color: #fff;
-  text-shadow: 0 0 0.625em #fff, 0 0 1.5625em #fff,
+  color: var(--white);
+  text-shadow: 0 0 0.625em var(--white), 0 0 1.5625em var(--white),
     -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
 }
 .section .section-content ol,
@@ -408,20 +417,20 @@ svg {
   width: 1.5em;
   line-height: 1;
   text-align: right;
-  color: #fff;
+  color: var(--white);
 }
 .section .section-subhead {
   text-transform: uppercase;
-  color: #fff;
+  color: var(--white);
   font-size: 1rem;
-  border: 0.0625rem solid #fff;
+  border: 0.0625rem solid var(--white);
   padding: 0.5rem 0.75rem;
   -webkit-border-radius: 0.25rem;
   border-radius: 0.25rem;
   margin-top: 2rem;
-  text-shadow: 0 0 0.3125em #fff, -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0 0 0.625em #fff, -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 0.625em #fff, -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 0.3125em var(--white), -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.625em var(--white), -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0.625em var(--white), -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
 }
 @media (max-width: 64em) {
   .section {
@@ -444,22 +453,22 @@ svg {
 .color-section th {
   text-align: left;
   padding-bottom: 2rem;
-  color: #fff;
-  text-shadow: 0 0 0.625em #fff, 0 0 1.5625em #fff,
+  color: var(--white);
+  text-shadow: 0 0 0.625em var(--white), 0 0 1.5625em var(--white),
     -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
 }
 .color-section th span {
   text-transform: uppercase;
-  border: 0.0625rem solid #fff;
+  border: 0.0625rem solid var(--white);
   padding: 0.5rem 0.75rem;
   -webkit-border-radius: 0.25rem;
   border-radius: 0.25rem;
-  -webkit-box-shadow: 0 0 0.625em #fff, -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 0.625em #fff, -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0.625em var(--white), -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0.625em var(--white), -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
 }
 .color-section td {
   vertical-align: middle;
-  text-shadow: 0 0 0.625em #fff, 0 0 1.5625em #fff,
+  text-shadow: 0 0 0.625em var(--white), 0 0 1.5625em var(--white),
     -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
 }
 .color-section .color-swatch {
@@ -499,8 +508,8 @@ svg {
 }
 .logo-section .unacceptable .svg-x {
   position: absolute;
-  color: #bc1e22;
-  stroke: #bc1e22;
+  color: var(--red);
+  stroke: var(--red);
   stroke-width: 0.1875rem;
   width: 90%;
   height: 90%;
@@ -515,19 +524,19 @@ svg {
 }
 .grab-the-bookmarklet a {
   display: block;
-  color: #fff;
+  color: var(--white);
   font-size: 2.25rem;
   font-weight: 700;
   font-family: "Source Code Pro", monospace;
   text-transform: uppercase;
   margin-top: 3rem;
-  border: 0.125rem solid #bc1e22;
+  border: 0.125rem solid var(--red);
   padding: 1rem 3rem;
-  text-shadow: 0 0 0.625em #bc1e22, 0 0 1.5625em #bc1e22,
+  text-shadow: 0 0 0.625em var(--red), 0 0 1.5625em var(--red),
     -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0 0 0.625em #bc1e22,
+  -webkit-box-shadow: 0 0 0.625em var(--red),
     -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 0.625em #bc1e22, -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0.625em var(--red), -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
 }
 @media (max-width: 36.875em) {
   .grab-the-bookmarklet a {
@@ -674,8 +683,8 @@ svg {
 }
 .made-by {
   font-size: 1.375rem;
-  color: #fff;
-  text-shadow: 0 0 0.3125em #fff, -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
+  color: var(--white);
+  text-shadow: 0 0 0.3125em var(--white), -0.0625em 0 0.125em rgba(0, 0, 0, 0.5);
 }
 .endline {
   background-color: rgba(204, 204, 204, 0.25);
